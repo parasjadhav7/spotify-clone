@@ -10,7 +10,6 @@
     background-size: cover;
 }    
 
-/* Button 1 (Menu icon) */
 .btn_one i{
     color: white;
     font-size: 30px;
@@ -22,7 +21,7 @@
     transition: 0.3s linear;
 }
 
-/* Sidebar main box */
+
 .sidebar_menu{
     position: fixed;
     left: -300px;
@@ -33,7 +32,7 @@
     transition: 0.3s linear;
 }
 
-/* Logo section */
+
 .sidebar_menu .logo{
     position: absolute;
     width: 100%;
@@ -51,7 +50,7 @@
     font-weight: 500;
 }
 
-/* Button 2 (Close icon) */
+
 .sidebar_menu .btn_two{
     position: absolute;
     left: 275px;
@@ -66,7 +65,7 @@
     transition: 0.3s linear;
 }
 
-/* Menu */
+
 .sidebar_menu .menu{
     position: absolute;
     width: 100%;
@@ -94,7 +93,7 @@
     padding-right: 8px;
 }
 
-/* Social media icons */
+
 .sidebar_menu .social_media{
     position: absolute;
     left: 25%;
@@ -113,12 +112,12 @@
     transform: scale(1.1);
 }
 
-/* Checkbox hidden */
+
 #check{
     display: none;
 }
 
-/* Button hover */
+
 .btn_one i:hover{
     font-size: 40px;
 }
@@ -127,7 +126,7 @@
     font-size: 30px;
 }
 
-/* When checkbox is checked */
+
 #check:checked ~ .sidebar_menu{
     left: 0;
 }
