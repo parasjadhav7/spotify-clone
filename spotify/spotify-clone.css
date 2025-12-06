@@ -334,6 +334,11 @@ a {
     gap: 10px;
     margin-right: 50px;
     cursor: pointer;
+    opacity: 0.5;
+}
+
+.controls:hover{
+    opacity: 1;
 }
 
 
